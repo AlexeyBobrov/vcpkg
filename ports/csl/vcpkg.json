@@ -1,0 +1,9 @@
+{
+  "name": "csl",
+  "version-string": "0.0.1",
+  "port-version": 1,
+  "description": [
+    "The common system library"
+  ],
+  "supports": "linux | osx | windows"
+}
