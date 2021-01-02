@@ -1,9 +1,10 @@
 {
   "name": "csl",
-  "version-string": "0.0.1",
+  "version-string": "0.0.2",
   "port-version": 1,
   "description": [
     "The common system library"
   ],
-  "supports": "linux | osx | windows"
+  "supports": "linux | osx | windows",
+  "dependencies": [ "gtest", "boost-system", "boost-format", "boost-thread", "boost-filesystem", "boost-date-time", "boost-program-options" ]
 }
