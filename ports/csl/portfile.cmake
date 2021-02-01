@@ -4,7 +4,7 @@ set(PortName csl)
 vcpkg_from_git(
   OUT_SOURCE_PATH SOURCE_PATH
   URL https://bitbucket.org/AlexeyBobrov/${PortName}
-  REF e12fd54d144c1b2f729bfc847f38c2a7dbdfd58b
+  REF 85cdec69e773ba69b941391a3c7fdf99384d9ebb
   )
 
 vcpkg_configure_cmake(
