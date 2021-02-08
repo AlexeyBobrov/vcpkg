@@ -1,0 +1,10 @@
+{
+  "name": "wincsl",
+  "version-string": "0.0.1",
+  "port-version": 0,
+  "description": [
+    "The common system library (with the winapi support)"
+  ],
+  "supports": "windows",
+  "dependencies": [ "csl", "gtest", "boost-system", "boost-format", "boost-thread", "boost-filesystem", "boost-date-time", "boost-program-options" ]
+}
